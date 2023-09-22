@@ -2,7 +2,7 @@ boolean jobsDone = true;
 
 void setup()
 {
-    if (true)
+    if (isJobDone())
     {
         println("Job's done!");   
     }
