@@ -1,7 +1,6 @@
 
-
 void setup() {
-println(printPartOfWord("kugler",1,4));
+println(printPartOfWord("københavn",0,3));
   
   
   
@@ -9,8 +8,8 @@ println(printPartOfWord("kugler",1,4));
 
 
 
-String printPartOfWord (String ord, int startindex, int endindex){
-return ord.substring(startindex,endindex);
+String printPartOfWord (String ord, int start, int lang){
+return ord.substring(start,lang+start);
   
   
 }
