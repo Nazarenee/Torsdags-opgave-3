@@ -1,6 +1,7 @@
-class bil {
+public class MyClass {
     
-  bil() {
+    public MyClass()
+    {
         println("Jobs done!"); 
     }
 }
